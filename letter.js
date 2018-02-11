@@ -16,7 +16,7 @@ function Letter(ulet) {
     // if it was guessed correctly
     this.matchCharacter = function(userGuessedLetter) {
         if (this.u_letter == userGuessedLetter) {
-            u_guessed = true;
+            this.u_guessed = true;
         }
     };
 }

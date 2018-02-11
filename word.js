@@ -13,7 +13,7 @@ function Word(newWord) {
     // this method matches letter guessed by user by calling matchCharacter function in each individual Letter object 
     this.doMatch = function(guessedLetter) {
         this.letters.forEach(letter => {
-            letter.matchCharacter(guessedLetter);
+            letter.matchCharacter(guessedLetter.toUpperCase());
         });
     };
 
