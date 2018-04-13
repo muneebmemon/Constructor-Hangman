@@ -1,4 +1,5 @@
-# Constructor-Hangman
+# Hangman Game (CLI with Node)
+
   * Hangman command-line game using constructor functions. This project has three javascript files:
   
 * Letter.js: Contains a constructor, Letter. This constructor displays an underlying character or a blank placeholder (such as an underscore), depending on whether or not the user has guessed the letter. The constructor defines:
